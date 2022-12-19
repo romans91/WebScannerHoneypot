@@ -1,4 +1,5 @@
 ## Web Scanner Honeypot
+Slows down bots that crawl websites scanning for vulnerabilities by responding to all GET requests with a chunked transfer encoding response that contains a slow and  infinite stream of text.
 ### Requires
 - Java 17
 - Maven
